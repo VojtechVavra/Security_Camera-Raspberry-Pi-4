@@ -2,7 +2,7 @@
 
 Used references:
 
-crontab -e
+crontab -e  
 */1 * * * * /home/pi/Projects/compress_videos.sh
 
 Cron calculator:
