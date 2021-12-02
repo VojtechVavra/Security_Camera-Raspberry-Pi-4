@@ -7,7 +7,10 @@ crontab -e
 
 Cron calculator:
 https://crontab.guru/#*/10_*_*_*_*
-
+  
+Raspberry Pi settings:  
+sudo nano /boot/config.txt  
+  
 https://picamera.readthedocs.io/en/release-1.10/recipes1.html
 4.13. Recording to a circular stream
 4.8. Capturing in low light - not used, but can be used for low light, must test it in future:
