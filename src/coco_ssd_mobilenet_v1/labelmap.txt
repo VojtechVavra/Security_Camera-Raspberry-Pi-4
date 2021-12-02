@@ -1,41 +1,40 @@
 ???
 person
-bicycle
-car
-motorcycle
-airplane
-bus
-truck
-bench
 bird
 cat
 dog
 horse
-sheep
-cow
-elephant
 bear
-backpack
-umbrella
-handbag
-suitcase
-skis
-kite
-bottle
-wine glass
-cup
-fork
-knife
-spoon
-bowl
-chair
-potted plant
-laptop
-mouse
-remote
-cell phone
-vase
-scissors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
