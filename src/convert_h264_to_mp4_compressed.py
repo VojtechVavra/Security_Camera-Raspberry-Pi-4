@@ -38,6 +38,9 @@ def delete_first_name_from_file():
 			#	f.write(line + '\n')
 
 def convert_video_mp4(video_name, output_filename):
+	# The range of the CRF scale is 0–51, where 0 is lossless (for 8 bit only, for 10 bit use -qp 0), 23 is the default, and 51 is worst quality possible.
+	#command1 = "ffmpeg -i " + video_path + video_name + " -c:v libx264 -crf 28 -threads 3 " + video_path + output_filename
+	#-c:v h264_omx
 	command1 = "ffmpeg -i " + video_path + video_name + " -vcodec libx264 -crf 28 " + video_path + output_filename
 	call([command1], shell=True)
 def delete_video(video_name):
