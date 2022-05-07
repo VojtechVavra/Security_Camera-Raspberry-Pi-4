@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SERVICE="start_virt_env_and_program"
-if ps -fA | grep python | grep TFLite_detection_cam4.py
+if ps -fA | grep python | grep TFLite_detection_cam5.py
 then
     echo "$SERVICE is running"   
 else
@@ -22,5 +22,3 @@ else
     # uncomment to start nginx if stopped
     # systemctl start nginx
 fi
-
-
