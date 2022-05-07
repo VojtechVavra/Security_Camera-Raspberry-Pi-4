@@ -1,0 +1,28 @@
+# Užitečné commandy
+
+# Informace o videu
+mediainfo --fullscan video.mp4
+
+# Plánovač úloh cron
+crontab -e
+
+# Správce úloh
+htop
+
+# Midnight Commander
+mc
+
+# Sledování průběžně se měnících teplot
+watch (watch ./temperature)
+
+# Vypisování posledních řádků v souboru, které tam postupně přibývají (donekonečna)
+tail -f soubor.txt
+
+# cat vypíše text ze souboru a grep v něm vyhledá daný výraz
+cat data.txt | grep "hledany text"
+
+
+rtcwake takes UTC time. thats mean -2 hours from cet
+sudo rtcwake -m disk --date 05:30:00
+
+service cron restart
