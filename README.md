@@ -3,7 +3,7 @@
 Used references:
 
 crontab -e  
-*/1 * * * * /home/pi/Projects/compress_videos.sh
+*/2 * * * * /home/pi/Projects/compress_videos.sh
 
 Cron calculator:
 https://crontab.guru/#*/10_*_*_*_*
