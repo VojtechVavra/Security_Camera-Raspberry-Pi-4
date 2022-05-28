@@ -3,7 +3,8 @@
 Used references:
 
 crontab -e  
-*/2 * * * * /home/pi/Projects/compress_videos.sh
+0 1 * * * /usr/bin/sudo /sbin/shutdown -r now  
+*/2 * * * * /home/pi/Projects/compress_videos.sh  
 
 Cron calculator:
 https://crontab.guru/#*/10_*_*_*_*
