@@ -6,7 +6,7 @@ mediainfo --fullscan video.mp4
 # Plánovač úloh cron
 crontab -e
 
-# Zaktivuje změny
+# Aktualizuje změny cronu a aplikuje je
 service cron reload
 
 # Správce úloh
