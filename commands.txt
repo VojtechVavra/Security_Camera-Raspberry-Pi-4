@@ -29,3 +29,10 @@ rtcwake takes UTC time. thats mean -2 hours from cet
 sudo rtcwake -m disk --date 05:30:00
 
 service cron restart
+
+Take screenshot from raspicam  
+1. kill recording app, to release cam resources  
+2. run command:  
+$ raspistill -o ~/Pictures/new_image01.jpg -w 1920 -h 1080 -t 2000  
+
+scp pi@raspberrypi:/tmp/picture.jpg ~/Downloads/  
